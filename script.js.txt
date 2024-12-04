@@ -1,0 +1,7 @@
+// This is just a simple script to demonstrate form handling or interactivity if needed.
+document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault(); // Prevent default form submission
+
+    alert('Your message has been sent!');
+    // You can add AJAX code to submit the form to a server.
+});
